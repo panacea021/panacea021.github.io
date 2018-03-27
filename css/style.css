@@ -804,11 +804,11 @@ responsive area
         font-size: 20px;
     }
     #map {
-        height: 920px;
+        height: 720px;
     }
     .contact {
-        height: 920px;
-        margin-top: -920px;
+        height: 720px;
+        margin-top: -720px;
     }
     h2 {
         font-size: 70px !important;
@@ -893,13 +893,14 @@ responsive area
         margin-top: 38%;
     }
     #map {
-        height: 750px;
+        height: 550px;
     }
     .contact {
-        height: 750px;
-        margin-top: -750px;
+        height: 550px;
+        margin-top: -550px;
     }
     .contact-heading h2 {
+        text-align: center !important;
         font-size: 50px;
         text-align: left;
         margin-left: 15px;
