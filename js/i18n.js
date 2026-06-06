@@ -253,7 +253,9 @@ function applyLang(lang) {
   document.querySelectorAll('.lang-btn').forEach(btn => {
     btn.classList.toggle('active', btn.getAttribute('data-lang') === lang);
   });
-  document.documentElement.lang = lang === 'en' ? 'en' : 'sr';
+  document.documentElement.lang = lang;
+  document.body.className = document.body.className
+    .replace(/\blang-\w+/g, '').trim() + ' lang-' + lang;
   localStorage.setItem('lang', lang);
 }
 

@@ -40,7 +40,7 @@ a:hover, a:visited, a {
 h1, h2 {
     text-transform: uppercase;
     font-weight: 700;
-    font-family: 'BenchNine', sans-serif;
+    font-family: 'Oswald', sans-serif;
     letter-spacing: 1px;
 }
 
@@ -53,8 +53,8 @@ h1, h2 {
 .lang-btn {
     background: none;
     border: none;
-    font-family: 'BenchNine', sans-serif;
-    font-size: 17px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 14px;
     font-weight: 700;
     color: var(--gray);
     cursor: pointer;
@@ -142,8 +142,8 @@ ul.nav {
 }
 
 .navbar-default .navbar-nav > li > a {
-    font-family: 'BenchNine', sans-serif;
-    font-size: 18px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 14px;
     font-weight: 700;
     color: var(--gray);
     text-transform: uppercase;
@@ -193,8 +193,8 @@ li a.active {
 }
 
 .carousel-caption h2 {
-    font-family: 'BenchNine', sans-serif;
-    font-size: 72px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 48px;
     color: var(--white);
     text-transform: uppercase;
     margin-bottom: 8px;
@@ -202,7 +202,7 @@ li a.active {
 }
 
 .carousel-caption p {
-    font-size: 24px;
+    font-size: 18px;
     color: rgba(255,255,255,0.92);
     text-transform: uppercase;
     font-weight: 600;
@@ -358,7 +358,7 @@ li a.active {
 
 .price-table thead th {
     padding: 14px 20px;
-    font-family: 'BenchNine', sans-serif;
+    font-family: 'Oswald', sans-serif;
     font-size: 17px;
     font-weight: 700;
     letter-spacing: 0.5px;
@@ -466,7 +466,7 @@ li a.active {
 }
 
 .person-detail h3 {
-    font-family: 'BenchNine', sans-serif;
+    font-family: 'Oswald', sans-serif;
     font-size: 22px;
     color: var(--blue-dark);
     margin: 0 0 10px;
