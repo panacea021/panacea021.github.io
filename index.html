@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en"> 
+<html lang="sr">
 <head>
 	<!-- Global site tag (gtag.js) - Google Analytics -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-124510601-1"></script>
@@ -11,116 +11,96 @@
 	</script>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Privatna lekarska ordinacija opšte prakse sa mogućnošću kućnog lečenja.">
-	<meta name="keywords" content="Kućno lečenje, Novi Sad, Petrovaradin, Privatno kućno lečenje, Porodični lekar, Privatna lekarska ordinacija, Lekar opšte prkase, Previjanje, Kateter, Infuzija">
-    <meta name="author" content="Milan Segedinac">
+	<meta name="description" content="Privatna lekarska ordinacija opšte prakse sa mogućnošću kućnog lečenja.">
+	<meta name="keywords" content="Kućno lečenje, Novi Sad, Petrovaradin, Privatno kućno lečenje, Porodični lekar, Privatna lekarska ordinacija, Lekar opšte prakse, Previjanje, Kateter, Infuzija">
+	<meta name="author" content="Milan Segedinac">
 	<title>PANACEA 021 - kućno lečenje</title>
 	<link rel="stylesheet" href="css/font-awesome.min.css">
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-	<link href='http://fonts.googleapis.com/css?family=Open+Sans:600italic,400,800,700,300' rel='stylesheet' type='text/css'>
-	<link href='http://fonts.googleapis.com/css?family=BenchNine:300,400,700' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800&display=swap' rel='stylesheet'>
+	<link href='https://fonts.googleapis.com/css?family=BenchNine:300,400,700&display=swap' rel='stylesheet'>
 	<script src="js/modernizr.js"></script>
 	<!--[if lt IE 9]>
-      <script src="js/html5shiv.js"></script>
-      <script src="js/respond.min.js"></script>
-    <![endif]-->
-
+	  <script src="js/html5shiv.js"></script>
+	  <script src="js/respond.min.js"></script>
+	<![endif]-->
 </head>
 <body>
-	
-	<!-- ====================================================
-	header section -->
+
+	<!-- header -->
 	<header class="top-header">
 		<div class="container">
 			<div class="row">
 				<div class="col-xs-5 header-logo">
-					<br>
-					<a href="index.html"><img src="img/logo1Small.png" alt="" class="img-responsive logo">
+					<a href="index.html">
+						<img src="img/logo1Small.png" alt="Panacea 021" class="img-responsive logo">
 					</a>
 				</div>
-
 				<div class="col-md-7">
 					<nav class="navbar navbar-default">
 					  <div class="container-fluid nav-bar">
-					    <!-- Brand and toggle get grouped for better mobile display -->
 					    <div class="navbar-header">
-					      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+					      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-nav">
 					        <span class="sr-only">Toggle navigation</span>
 					        <span class="icon-bar"></span>
 					        <span class="icon-bar"></span>
 					        <span class="icon-bar"></span>
 					      </button>
 					    </div>
-
-					    <!-- Collect the nav links, forms, and other content for toggling -->
-					    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-					      
+					    <div class="collapse navbar-collapse" id="main-nav">
 					      <ul class="nav navbar-nav navbar-right">
-					        <!-- <li><a class="menu active" href="#home" >Home</a></li> -->
-					        <li><a class="menu" href="#about">o nama</a></li>
-					        <li><a class="menu" href="#notifications">obaveštenja</a></li>
-					        <li><a class="menu" href="#service">cenovnik</a></li>
-					        <li><a class="menu" href="#team">tim</a></li>
-							<li><a class="menu" href="#contact">kontakt</a></li>
-							<!-- <li>
-								<div class="dropdown">
-									<div class="menu dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-										tekstovi
-										<span class="caret"></span>
-									</div>
-									<ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
-										<li><a href="#">Action</a></li>
-										<li><a href="#">Another action</a></li>
-										<li><a href="#">Something else here</a></li>
-										<li role="separator" class="divider"></li>
-										<li><a href="#">Separated link</a></li>
-									</ul>
-								</div>
-							</li> -->
+					        <li><a class="menu" href="#about"       data-i18n="nav.about">o nama</a></li>
+					        <li><a class="menu" href="#notifications" data-i18n="nav.notifications">obaveštenja</a></li>
+					        <li><a class="menu" href="#service"     data-i18n="nav.service">cenovnik</a></li>
+					        <li><a class="menu" href="#team"        data-i18n="nav.team">tim</a></li>
+					        <li><a class="menu" href="#contact"     data-i18n="nav.contact">kontakt</a></li>
+					        <li class="lang-switcher">
+					          <button class="lang-btn active" data-lang="sr">SR</button>
+					          <span class="lang-sep">|</span>
+					          <button class="lang-btn" data-lang="en">EN</button>
+					          <span class="lang-sep">|</span>
+					          <button class="lang-btn" data-lang="ru">RU</button>
+					        </li>
 					      </ul>
-					    </div><!-- /navbar-collapse -->
-					  </div><!-- / .container-fluid -->
+					    </div>
+					  </div>
 					</nav>
 				</div>
 			</div>
 		</div>
-	</header> <!-- end of header area -->
+	</header>
 
+	<!-- slider -->
 	<section class="slider" id="home">
 		<div class="container-fluid">
 			<div class="row">
 			    <div id="carouselHacked" class="carousel slide carousel-fade" data-ride="carousel">
 					<div class="header-backup"></div>
-			        <!-- Wrapper for slides -->
 			        <div class="carousel-inner" role="listbox">
 			            <div class="item active">
 			            	<img src="img/img1wide.png" alt="">
 			                <div class="carousel-caption">
-		               			<h2>Kućno lečenje</h2>
-		               			<p>Privatna ordinacija opšte prakse sa kućnim lečenjem</p>
-		               			<!-- <button>learn more</button> -->
+		               			<h2 data-i18n="slide.1.h2">Kućno lečenje</h2>
+		               			<p  data-i18n="slide.1.p">Privatna ordinacija opšte prakse</p>
 			                </div>
 			            </div>
 			            <div class="item">
 			            	<img src="img/img2wide.png" alt="">
 			                <div class="carousel-caption">
-		               			<h2>Kućno lečenje</h2>
-		               			<p>Privatna ordinacija opšte prakse sa kućnim lečenjem</p>
-		               			<!-- <button>learn more</button> -->
+		               			<h2 data-i18n="slide.2.h2">Kućno lečenje</h2>
+		               			<p  data-i18n="slide.2.p">Dijagnostika i lečenje na terenu</p>
 			                </div>
 			            </div>
 			            <div class="item">
 			            	<img src="img/img3wide.png" alt="">
 			                <div class="carousel-caption">
-		               			<h2>Kućno lečenje</h2>
-		               			<p>Privatna ordinacija opšte prakse sa kućnim lečenjem</p>
-		               			<!-- <button>learn more</button> -->
+		               			<h2 data-i18n="slide.3.h2">Kućno lečenje</h2>
+		               			<p  data-i18n="slide.3.p">Stručan tim, moderna oprema</p>
 			                </div>
 			            </div>
 			        </div>
-			        <!-- Controls -->
 			        <a class="left carousel-control" href="#carouselHacked" role="button" data-slide="prev">
 			            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
 			            <span class="sr-only">Previous</span>
@@ -132,235 +112,165 @@
 			    </div>
 			</div>
 		</div>
-	</section><!-- end of slider section -->
+	</section>
 
-	<!-- about section -->
+	<!-- about -->
 	<section class="about text-center" id="about">
 		<div class="container">
 			<div class="row">
-				<h2>O nama</h2>
-				<h4>PANACEA 021 je privatna lekarska ordinacija opšte prakse sa mogućnošću kućnog lečenja. Bavimo se prevencijom, dijagnostikom i lečenjem akutnih i hroničnih oboljenja. Vršimo lekarski pregled u ordinaciji i u okviru kućnog lečenja, davanje intramuskularnih i subkutanih injekcija, kao i intravenskih injekcija, postavljanje i zamenu urinarnog katetera. Kroz kućno lečenje ili u našoj ordinaciji vršimo previjanje postoperativnih rana, rana kao posledica povreda i rana od ležanja (dekubitusa) i skidanje konaca posle operacije ili povrede. PANACEA 021 nudi i davanje infuzije na terenu ili u ordinaciji. U naše usluge spadaju i nega stome i davanje, snimanje EKG i očitavanje EKG, merenje krvnog pritiska i merenje vrednosti šećera u krvi, pulsna oksimetrija, kao i tumačenje laboratorijskih nalaza. Po potrebi naše pacijente upućujemo na dalje dijagnostičke preglede i laboratorijske analize. PANACEA 021 nudi i usluge prevencije oboljenja kroz preventivne sistematske pregleda kao i brigu o zaposlenima. Sarađujemo sa medicinsko-biohemijskom laboratorijom koja pruža širok spektar usluga po najpovoljnijim cenama i radno vreme joj je od 0 do 24 sata. Preventivni pregled obuhvata merenje krvnog pritiska, pulsne oksimetrije, merenje koncetracije šećera u krvi, auskultaciju srca i pluća, palpatorni pregled abdomena, osnovni neurološki pregled, snimanje i tumačenje EKG, osnovni ORL pregled. 
-				Naš tim čine lekar specijalista urgentne medicine i medicinski tehničar, oboje sa dugogodišnjim iskustvom rada u hitnoj medicinskoj pomoći.
-				Naša briga o Vama se ne završava pregledom: mi ostajemo u stalnom kontaktu sa našim pacijentima kako bismo Vam omogućili razrešavanje svih nejasnoća i savetovanje po pitanju daljeg lečenja. Posbno Vam napominjemo da su sve usluge telefonskih konsultacija sa lekarom specijalistom besplatne. Slobodno nas pozovite ukoliko imate bilo kakva pitanja! Za konsultacije smo dostupni svaki dan. Usluge kućnog lečenja i usluge u ordinaciji zakazuju se putem telefona i sprovode u najkraćem mogućem roku.
-				Pregledi i intervencije koje obavljamo u sklopu kućnog lečenja ne zaostaju po kvalitetu od pregleda u ordinaciji pošto posedujemo modernu prenosivu dijagnostičku i terapijsku opremu. Zbog toga je ova vrsta usluga prilagođena pre svega starim i nepokretnim pacijentima i teškim bolesnicima kojima bi odlazak lekaru predstavljao problem ili bio potpuno nemoguć. Troškove izlaska na teren smo sveli na minimum kako bismo svim pacijentima omogućili adekvatnu zdravstvenu negu u sklopu kućnog lečenja.
-				Usluge kućnog lečenja vršimo kako na teritoriji grada Novog Sada sa prigradskim naseljima tako i u okolnim mestima. Pregledi i medicinske intervencije se zakazuju. </h4>
+				<h2 class="section-title" data-i18n="about.title">O nama</h2>
+				<p class="about-text" data-i18n="about.p1"></p>
+				<p class="about-text" data-i18n="about.p2"></p>
+				<p class="about-text" data-i18n-html="about.p3"></p>
+				<p class="about-text" data-i18n="about.p4"></p>
 			</div>
 		</div>
-	</section><!-- end of about section -->
+	</section>
 
-	<!-- notifications section -->
-	
-	<section class="about text-center" id="notifications">
+	<!-- notifications -->
+	<!-- section class="notifications-section text-center" id="notifications">
 		<div class="container">
 			<div class="row">
-				<h2>Obaveštenja</h2>
-				<h4>Panacea 021 neće raditi od 01.07.2025. do 31.07.2025. zbog godišnjeg odmora.<h4>
+				<h2 class="section-title" data-i18n="notif.title">Obaveštenja</h2>
+				<div class="notification-box">
+					<i class="fa fa-info-circle" style="color:#3aaee0; margin-right:8px;"></i><span data-i18n="notif.text">Panacea 021 neće raditi od 01.07.2025. do 31.07.2025. zbog godišnjeg odmora.</span>
+				</div>
 			</div>
 		</div>
-	</section><!-- end of about section -->
-	
+	</section>
 
-	<!-- service section starts here -->
+	<!-- service / cenovnik -->
 	<section class="service text-center" id="service">
 		<div class="container">
 			<div class="row">
-				<h2>Cenovnik - važi od 15.10.2024.</h2>
-				<h4>Usluge u ordinaciji</h4>
+				<h2 class="section-title" data-i18n="service.title">Cenovnik</h2>
+				<p class="subtitle"      data-i18n="service.subtitle">važi od 15.10.2024.</p>
 			</div>
-			<div>
-				<table class="table">
-					<thead>
-						<tr>
-						  <th class="service" scope="col">Usluga</th>
-						  <th class="price" scope="col">Cena</th>
-						</tr>
-					  </thead>
-					  <tbody>
-						<tr>
-							<td class="service">Pregled lekara specijaliste (internistički pregled sa merenjem krvnog pritiska, neurološki pregled i pulsna oksimetrija)</td>
-							<td class="price">4.000,00 RSD</td>
-						</tr>
-						<tr>
-							<td class="service">Kompletni preventivni pregled (kompletni internistički pregled sa merenjem krvnog pritiska, snimanjem i tumačenjem EKG, pulsnom oksimetrijom, merenjem koncentracije šećera u krvi i osnovnim ORL pregledom)</td>
-							<td class="price">5.500,00 RSD</td>
-						</tr>
-						<tr>
-							<td class="service">Davanje intramuskularne ili subkutane injekcije ili vakcinacija odraslih</td>
-							<td class="price">500,00 RSD</td>
-						</tr>
-						<tr>
-							<td class="service">Davanje intravenske injekcije</td>
-							<td class="price">800,00 RSD</td>
-						</tr>
-						<tr>
-							<td class="service">Davanje intravenske infuzije</td>
-							<td class="price">1.500,00 RSD</td>
-						</tr>
-						<tr>
-							<td class="service">Plasiranje ili zamena urinarnog katetera</td>
-							<td class="price">1.500,00 RSD</td>
-						</tr>
-						<tr>
-							<td class="service">Previjanje rane (u zavisnosti od veličine rane)</td>
-							<td class="price">800,00 RSD do 1.800,00 RSD</td>
-						</tr>
-						<tr>
-							<td class="service">Skidanje konaca</td>
-							<td class="price">1600,00 RSD</td>
-						</tr>
-						<tr>
-							<td class="service">Snimanje EKG</td>
-							<td class="price">700,00 RSD</td>
-						</tr>
-						<tr>
-							<td class="service">Očitavanje EKG</td>
-							<td class="price">1.000,00 RSD</td>
-						</tr>
-						<tr>
-							<td class="service">Određivanje koncentracije glukoze u krvi</td>
-							<td class="price">300,00 RSD</td>
-						</tr>
-						<tr>
-							<td class="service">Konsultacija lekara</td>
-							<td class="price">besplatno</td>
-						</tr>
-						<tr>
-							<td class="service">Dodatak za usluge van ordinacije na udaljenosti do 10 km</td>
-							<td class="price">500,00 RSD</td>
-						</tr>
-						<tr>
-							<td class="service">Dodatak za usluge van ordinacije na udaljenosti od 10 do 20 km</td>
-							<td class="price">700,00 RSD</td>
-						</tr>
-						<tr>
-							<td class="service">Dodatak za usluge van ordinacije na udaljenosti preko 20 km</td>
-							<td class="price">cene po dogovoru</td>
-						</tr>
-						<tr>
-							<td class="service">Kontrolni pregled lekara specijaliste</td>
-							<td class="price">2.500,00</td>
-						</tr>
-						<tr>
-							<td class="service">Vađenje katetera</td>
-							<td class="price">600,00</td>
-						</tr>
-						<tr>
-							<td class="service">Pregled sportista</td>
-							<td class="price">1.200,00</td>
-						</tr>
-						<tr>
-							<td class="service">Pregled lekara specijaliste za strance</td>
-							<td class="price">10.000,00</td>
-						</tr>					
-						<tr>
-							<td class="service">Vakcinacija sa pregledom</td>
-							<td class="price">2.500,00</td>
-						</tr>  
-					  </tbody>
-				</table>
-				
+			<div class="row">
+				<div class="price-table">
+					<table>
+						<thead>
+							<tr>
+							  <th class="service" scope="col" data-i18n="service.col.name">Usluga</th>
+							  <th class="price"   scope="col" data-i18n="service.col.price">Cena</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr><td class="service" data-i18n="s.01"></td><td class="price">4.000,00 RSD</td></tr>
+							<tr><td class="service" data-i18n="s.02"></td><td class="price">5.500,00 RSD</td></tr>
+							<tr><td class="service" data-i18n="s.03"></td><td class="price">500,00 RSD</td></tr>
+							<tr><td class="service" data-i18n="s.04"></td><td class="price">800,00 RSD</td></tr>
+							<tr><td class="service" data-i18n="s.05"></td><td class="price">1.500,00 RSD</td></tr>
+							<tr><td class="service" data-i18n="s.06"></td><td class="price">1.500,00 RSD</td></tr>
+							<tr><td class="service" data-i18n="s.07"></td><td class="price">800,00 – 1.800,00 RSD</td></tr>
+							<tr><td class="service" data-i18n="s.08"></td><td class="price">1.600,00 RSD</td></tr>
+							<tr><td class="service" data-i18n="s.09"></td><td class="price">700,00 RSD</td></tr>
+							<tr><td class="service" data-i18n="s.10"></td><td class="price">1.000,00 RSD</td></tr>
+							<tr><td class="service" data-i18n="s.11"></td><td class="price">300,00 RSD</td></tr>
+							<tr><td class="service" data-i18n="s.12"></td><td class="price" data-i18n="p.12">besplatno</td></tr>
+							<tr><td class="service" data-i18n="s.13"></td><td class="price">2.500,00 RSD</td></tr>
+							<tr><td class="service" data-i18n="s.14"></td><td class="price">600,00 RSD</td></tr>
+							<tr><td class="service" data-i18n="s.15"></td><td class="price">1.200,00 RSD</td></tr>
+							<tr><td class="service" data-i18n="s.16"></td><td class="price">2.500,00 RSD</td></tr>
+							<tr><td class="service" data-i18n="s.17"></td><td class="price">10.000,00 RSD</td></tr>
+							<tr><td class="service" data-i18n="s.18"></td><td class="price">500,00 RSD</td></tr>
+							<tr><td class="service" data-i18n="s.19"></td><td class="price">700,00 RSD</td></tr>
+							<tr><td class="service" data-i18n="s.20"></td><td class="price" data-i18n="p.20">po dogovoru</td></tr>
+						</tbody>
+					</table>
+				</div>
 			</div>
 		</div>
-	</section><!-- end of service section -->
+	</section>
 
-
-	<!-- team section -->
+	<!-- team -->
 	<section class="team" id="team">
 		<div class="container">
 			<div class="row">
 				<div class="team-heading text-center">
-					<h2>Tim</h2>
-					<h4>U ordinaciji rade lekar specijalista urgnetne medicine i medicinski tehničar.</h4>
+					<h2 class="section-title" data-i18n="team.title">Tim</h2>
+					<p class="subtitle"       data-i18n="team.subtitle">U ordinaciji rade lekar specijalista urgentne medicine i medicinski tehničar.</p>
 				</div>
-				</div>
-				<div class="row">
-				<div class="col-md-2 single-member col-sm-2">
-				</div>
-				<div class="col-md-4 single-member col-sm-4">
-					<div class="person">
-						<img class="img-responsive info-img img-rounded" src="img/img5.jpg" alt="member-1">
-					</div>
-					<div class="person-detail">
-						<h3>dr Milica Basarić, specijalista urgentne medicine</h3>
-						<p>Milica Basarić je rođena 1978. godine u Novom Sadu. Završila je Medicinski fakultet u Novom Sadu u roku kao jedan od najboljih studenata u generaciji. Od 2005. godine zaposlena je u Zavodu za hidnu medicinsku pomoć u Novom Sadu. Specijalistički ispit iz oblasti Urgentne medicine položila je 2016.</p>
-					</div>
-				</div>
-				<div class="col-md-4 single-member col-sm-4">
-						<div class="person">
-								<img class="img-responsive info-img img-rounded" src="img/img6.jpg" alt="member-2">
-							</div>
+			</div>
+			<div class="row" style="max-width:800px; margin:0 auto;">
+				<div class="col-md-6 col-sm-6 single-member">
+					<div class="member-card">
+						<img src="img/img5.jpg" alt="dr Milica Basarić">
 						<div class="person-detail">
-						<h3>Vuk Milović, medicinski tehničar</h3>
-						<p>Vuk Milović rođen je 1980. godine. Završio je opšti smer Srednje medicinske škole 7. april u Novom Sadu. Bio je zaposlen u Kliničkom centru Vojvodine na Klinici za abdominalnu hirurgiju. Od 2006. godine zaposlen je u Zavodu za hitnu medicinsku pomoć u Novom Sadu.</p>
+							<h3>
+								<span data-i18n="team.m1.name">dr Milica Basarić</span><br>
+								<small style="font-size:14px; color:#999;" data-i18n="team.m1.role">specijalista urgentne medicine</small>
+							</h3>
+							<p data-i18n="team.m1.bio"></p>
+						</div>
 					</div>
-
 				</div>
-			</div>
-		</div>
-	</section><!-- end of team section -->
-
-	<!-- map section -->
-	<div class="api-map" id="contact">
-		<div class="container-fluid">
-			<div class="row">
-				<div class="col-md-12 map" id="map"></div>
-			</div>
-		</div>
-	</div>
-	<!-- end of map section -->
-
-	<!-- contact section starts here -->
-	<section class="contact">
-		<div class="container">
-			<div class="row">
-				<div class="contact-caption clearfix">
-					<div class="contact-heading text-center">
-						<h2>Kontakt</h2>
-					</div>
-					<div class="col-md-5 contact-info text-center">
-						<div class="info-detail">
-							<ul><li><i class="fa fa-calendar"></i><span>Svakim danom:</span> 00:08 do 22:00 po pozivu</li></ul>
-							<ul><li><i class="fa fa-map-marker"></i><span>Adresa:</span> Mažuranićeva 59, Petrovaradin</li></ul>
-							<ul><li><i class="fa fa-phone"></i><span>Telefon:</span> 065/66-74-900</li></ul>
-							<ul><li><i class="fa fa-envelope"></i><span>Email:</span> ordinacijapanacea021@gmail.com</li>
-							
-							<li>
-									<iframe src="https://maps.google.com/maps?width=100%&amp;height=600&amp;hl=en&amp;coord=45.2410135, 19.88089549999995&amp;q=Ma%C5%BEurani%C4%87eva%2059%2C%20Petrovaradin%2C%20Serbia+(PANACEA%20021)&amp;ie=UTF8&amp;t=&amp;z=14&amp;iwloc=B&amp;output=embed" frameborder="0" style="border:0" allowfullscreen class="google_map"></iframe>
-							</li></ul>
+				<div class="col-md-6 col-sm-6 single-member">
+					<div class="member-card">
+						<img src="img/img6.jpg" alt="Vuk Milović">
+						<div class="person-detail">
+							<h3>
+								<span data-i18n="team.m2.name">Vuk Milović</span><br>
+								<small style="font-size:14px; color:#999;" data-i18n="team.m2.role">medicinski tehničar</small>
+							</h3>
+							<p data-i18n="team.m2.bio"></p>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
-	</section><!-- end of contact section -->
+	</section>
 
-	<!-- footer starts here -->
+	<!-- contact -->
+	<section class="contact-section text-center" id="contact">
+		<div class="container">
+			<div class="row">
+				<h2 class="section-title" data-i18n="contact.title">Kontakt</h2>
+				<div class="contact-card">
+					<ul>
+						<li>
+							<i class="fa fa-calendar"></i>
+							<div><span data-i18n="contact.hours.label">Radno vreme:</span> <span data-i18n="contact.hours.value">svakim danom 08:00–22:00, po pozivu</span></div>
+						</li>
+						<li>
+							<i class="fa fa-map-marker"></i>
+							<div><span data-i18n="contact.addr.label">Adresa:</span> <span data-i18n="contact.addr.value">Mažuranićeva 59, Petrovaradin</span></div>
+						</li>
+						<li>
+							<i class="fa fa-phone"></i>
+							<div><span data-i18n="contact.phone.label">Telefon:</span> 065/66-74-900</div>
+						</li>
+						<li>
+							<i class="fa fa-envelope"></i>
+							<div><span data-i18n="contact.email.label">Email:</span> ordinacijapanacea021@gmail.com</div>
+						</li>
+						<li style="display:block; padding:0; border:none;">
+							<iframe src="https://maps.google.com/maps?width=100%&amp;height=600&amp;hl=en&amp;coord=45.2410135,19.88089549999995&amp;q=Ma%C5%BEurani%C4%87eva%2059%2C%20Petrovaradin%2C%20Serbia+(PANACEA%20021)&amp;ie=UTF8&amp;t=&amp;z=14&amp;iwloc=B&amp;output=embed" frameborder="0" style="border:0" allowfullscreen class="google_map"></iframe>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- footer -->
 	<footer class="footer clearfix">
 		<div class="container">
 			<div class="row">
-				<div class="col-xs-6 footer-para">
-						<div class="copyright">Copyright © PANACEA021 2018</div>
+				<div class="col-xs-12 text-center footer-para">
+					<div class="copyright" data-i18n="footer.copy">Copyright &copy; PANACEA 021 2018&ndash;2025</div>
 				</div>
-				<!-- <div class="col-xs-6 text-right">
-					<a href=""><i class="fa fa-facebook"></i></a>
-					<a href=""><i class="fa fa-twitter"></i></a>
-					<a href=""><i class="fa fa-skype"></i></a>
-				</div> -->
 			</div>
 		</div>
 	</footer>
 
-	<!-- script tags
-	============================================================= -->
 	<script src="js/jquery-2.1.1.js"></script>
-	<!-- <script src="http://maps.google.com/maps/api/js?sensor=true"></script> -->
-	<script src="js/gmaps.js"></script>
-	<!-- <script src="js/smoothscroll.js"></script> -->
 	<script src="js/bootstrap.min.js"></script>
+	<script src="js/i18n.js"></script>
 	<script src="js/custom.js"></script>
 	<script>
-		$('.navbar-collapse a').click(function(){
-  		  $(".navbar-collapse").collapse('hide');
+		$('#main-nav a.menu').click(function(){
+			$("#main-nav").collapse('hide');
 		});
 	</script>
 </body>
